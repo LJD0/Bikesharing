@@ -13,7 +13,7 @@
         [link to dashboard] (https://public.tableau.com/app/profile/jeremy.d.larsen/viz/CitibikeAugust2019_16709852356800/AugustSummaryDashboard?publish=yes)
 
     Figure 1 - Trip Duration Breakdown
-        [image description](https://github.com/LJD0/Bikesharing/blob/main/data/images/Fig1.png)
+        [image](https://github.com/LJD0/Bikesharing/blob/main/data/images/Fig1.png)
         This Figure shows the amount of time bikes are rented for the CitiBike New York program. As shown the vast majority of trips are relatively short between 3 and 10 minutes.
 
     Figure 2 - Trip Duration by Gender
