@@ -13,31 +13,31 @@
         [link to dashboard] (https://public.tableau.com/app/profile/jeremy.d.larsen/viz/CitibikeAugust2019_16709852356800/AugustSummaryDashboard?publish=yes)
 
     Figure 1 - Trip Duration Breakdown
-    <img src="data/images/Fig1.png" width="128"/>
+        [image description](https://github.com/LJD0/Bikesharing/blob/main/data/images/Fig1.png)
         This Figure shows the amount of time bikes are rented for the CitiBike New York program. As shown the vast majority of trips are relatively short between 3 and 10 minutes.
 
     Figure 2 - Trip Duration by Gender
-        [image](data/images/Fig2.png)
+        [image](https://github.com/LJD0/Bikesharing/blob/main/data/images/Fig2.png)
         This Figure is the same breakdown as Figure 1 but is taken a step further with a breakdown by gender.
 
     Figure 3 - Heatmap of Checkout times by Weekday
-    <img src="data/images/Fig3.png" width="128"/>
+    [image](https://github.com/LJD0/Bikesharing/blob/main/data/images/Fig3.png)
         This Figure shows the amount of trips taken each weekday based on the starting time of the checkout. It shows a trend that the number of bike checkouts is greater Monday through Friday with checkouts being more common around the standard 9-5 times that users would be traveling to and from their workplaces.
 
     Figure 4 - Heatmap of Checkout times by Weekday and Gender
-    <img src="data/images/Fig4.png" width="128"/>
+    [image](https://github.com/LJD0/Bikesharing/blob/main/data/images/Fig4.png)
         This Figure is the same as Figure 3 but further broken down by gender.
 
     Figure 5 - Total bike use by Weekday broken down by User Type and Gender
-    <img src="data/images/Fig5.png" width="128"/>
+    [image](https://github.com/LJD0/Bikesharing/blob/main/data/images/Fig5.png)
         This Figure shows the overall use of the CitiBike program broken down by customers being subscribers or not and also a separation fo the data by gender. It reinforces what Figure 3 and 4 show with monday through Friday being the peak days. This visualization also show that the vast majority of users are subscribers and male.
 
     Figure 6 - Start Locations by Frequency
-    <img src="data/images/Fig6.png" width="128"/>
+    [image](https://github.com/LJD0/Bikesharing/blob/main/data/images/Fig6.png)
         This Figure shows the locations of the checkouts with the color denoting the frequency with which they are used. Showing the main downtown concentration of locations are more popular.
 
     Figure 7 - Users by Type
-    <img src="data/images/Fig7.png" width="128"/>
+    [image](https://github.com/LJD0/Bikesharing/blob/main/data/images/Fig7.png)
         This Figure shows that the vast majority of users are subscribers. Within the story (link above) the sections of the visualization are also showing a breakdown of the genders within each User Type. This graph shows similar data to Figure 5 with a focus on the number of users instead of the weekday.
 
 ## Summary:
