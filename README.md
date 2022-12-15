@@ -17,7 +17,7 @@
         This Figure shows the amount of time bikes are rented for the CitiBike New York program. As shown the vast majority of trips are relatively short between 3 and 10 minutes.
 
     Figure 2 - Trip Duration by Gender
-    <img src="data/images/Fig2.png" width="128"/>
+        [image](data/images/Fig2.png)
         This Figure is the same breakdown as Figure 1 but is taken a step further with a breakdown by gender.
 
     Figure 3 - Heatmap of Checkout times by Weekday
