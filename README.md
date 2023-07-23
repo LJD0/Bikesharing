@@ -1,46 +1,54 @@
-# Bikesharing with CitiBike NYC in August 2019
+# CitiBike NYC Monthly Dashboard
+
+Tools Used
+
+    - Tableau
 
 ## Overview:
 
-        Purpose of this Analysis is to break down the use times of the Citi Biki bikesharing program in New York City in order to extrapolate the potential profitability of starting a similar bikesharing program in Des Moines, IA.
+An interactive dashboard for Citi Biki bikesharing in New York City. Built to gather insight into trends that could determine viability of similar programs in other cities.
 
-## Results:
+The full dashboard can be found [HERE](https://public.tableau.com/app/profile/jeremy.d.larsen/viz/Citibike_Monthly_Story/NYCCitiBikeStory)
 
-    A full story of the data can be viewed on Tableau Public
-        [link to story](https://public.tableau.com/app/profile/jeremy.d.larsen/viz/CitibikeAugust2019_16709852356800/August2019CitibikeAnalysis#1)
+This Dashboard can be used to analyze any of the monthly datasets available from CitiBike.
+To view monthly data:
 
-    A dashboard of the general breakdown:
-        [link to dashboard] (https://public.tableau.com/app/profile/jeremy.d.larsen/viz/CitibikeAugust2019_16709852356800/AugustSummaryDashboard?publish=yes)
+- Make a clone of this repository
+- Download the requisite file from [CitiBike](https://s3.amazonaws.com/tripdata/index.html), into the Resources/Data folder
+- Unzip the downloaded file
+- Open the attached Workbook
+- In the 'Data Source' tab select the unzipped .csv file:
 
-    Figure 1 - Trip Duration Breakdown
-        [image](https://github.com/LJD0/Bikesharing/blob/main/data/images/Fig1.png)
-        This Figure shows the amount of time bikes are rented for the CitiBike New York program. As shown the vast majority of trips are relatively short between 3 and 10 minutes.
+#### Dashboard Visualizations
 
-    Figure 2 - Trip Duration by Gender
-        [image](https://github.com/LJD0/Bikesharing/blob/main/data/images/Fig2.png)
-        This Figure is the same breakdown as Figure 1 but is taken a step further with a breakdown by gender.
+- Figure 1 - Where Trips Start
+  A visualization of the start locations for bike rentals with their size and color denoting the frequency of use. **This value can be adjusted by interacting with the dashboard for a more focused look at ride count during specific times.**
 
-    Figure 3 - Heatmap of Checkout times by Weekday
-    [image](https://github.com/LJD0/Bikesharing/blob/main/data/images/Fig3.png)
-        This Figure shows the amount of trips taken each weekday based on the starting time of the checkout. It shows a trend that the number of bike checkouts is greater Monday through Friday with checkouts being more common around the standard 9-5 times that users would be traveling to and from their workplaces.
+- Figure 2 - How Often and How Long
+  This Figure shows the length of time bikes are rented for the CitiBike New York program and how many trips are of similar lengths. The colors denoting if the renter is a subscriber or not. **This value can be adjusted by interacting with the dashboard for a more focused look at ride count during specific times.**
 
-    Figure 4 - Heatmap of Checkout times by Weekday and Gender
-    [image](https://github.com/LJD0/Bikesharing/blob/main/data/images/Fig4.png)
-        This Figure is the same as Figure 3 but further broken down by gender.
+- Figure 3 - Number of Rides
+  The total number of rides for the month. **This value can be adjusted by interacting with the dashboard for a more focused look at ride count during specific times.**
 
-    Figure 5 - Total bike use by Weekday broken down by User Type and Gender
-    [image](https://github.com/LJD0/Bikesharing/blob/main/data/images/Fig5.png)
-        This Figure shows the overall use of the CitiBike program broken down by customers being subscribers or not and also a separation fo the data by gender. It reinforces what Figure 3 and 4 show with monday through Friday being the peak days. This visualization also show that the vast majority of users are subscribers and male.
+- Figure 4 - Customers/Subscribers
+  A pie chart denoting the amount of customers that were subscribers or just renters for the month. **This value can be adjusted by interacting with the dashboard for a more focused look at ride count during specific times.**
 
-    Figure 6 - Start Locations by Frequency
-    [image](https://github.com/LJD0/Bikesharing/blob/main/data/images/Fig6.png)
-        This Figure shows the locations of the checkouts with the color denoting the frequency with which they are used. Showing the main downtown concentration of locations are more popular.
+- Figure 5 - Bike Utilization
+  A bubble chart showcasing each bike and its frequency and average use time. The colored bubbles denote a bike's frequency of trips. The size of the bubble denotes the bikes average ride time. **This value can be adjusted by interacting with the dashboard for a more focused look at ride count during specific times.**
 
-    Figure 7 - Users by Type
-    [image](https://github.com/LJD0/Bikesharing/blob/main/data/images/Fig7.png)
-        This Figure shows that the vast majority of users are subscribers. Within the story (link above) the sections of the visualization are also showing a breakdown of the genders within each User Type. This graph shows similar data to Figure 5 with a focus on the number of users instead of the weekday.
+- Figure 6 - When and How Often
+  A heamap showing the days and times that bikes are most frequently checked out. **Data from this chart can be isolated to use the other visualizations with a more focused look at specific days of the week and times thorughout the month.**
 
-## Summary:
+##### Additional Visualizations in the Story
 
-    This analysis showed that the vast majority of users were both subscribers and used the program as a means of transportation to and from their workplaces. The analysis was limited to amount of use and broken down by gender. Two additional studies added to the analysis (Figure 6, and Figure 7) show the most used start locations and the number of users that subscribe to the service vs simply use the bikes on a transactional basis.
-    The only drawback to this analysis is the outlook of wear and tear on each bike. No data was visualized that exemplified the amount each bike was used, which would lead to the understanding of approximate repair schedules for the bikes.
+- Figure A - Peak Hours Bar Chart
+  A bar graph visualizing total rider count across the day highlighting peak times thoughout the month. Similar data output to Fig 6.
+
+- Figure B - End Locations
+  Counter visualization to Fig. 1, containing the end locations for bike rentals with their size and color denoting the frequency of use.
+
+- Figure C - User Gender Breakdown
+  A pie chart visualizing the gender breakdown of renters.
+
+- Figure D - Duration by Age
+  An area chart of the average Trip time by user age.

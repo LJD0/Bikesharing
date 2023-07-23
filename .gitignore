@@ -1,1 +1,4 @@
-.DS_Store
+*.DS_Store
+Resources/Data/2014-08 - Citi Bike trip data.csv
+.gitignore
+Resources/Data/201908-citibike-tripdata.csv
